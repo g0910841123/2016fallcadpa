@@ -1,2 +1,7 @@
-# 2016fallcadpa
-2016fall 電腦輔助設計實習課程二甲評量倉儲
+# 2016fallcpa
+2016fall 計算機程式課程一甲評量倉儲
+
+https://mdecourse.github.io/2016fallcpa
+
+https://mdecourse.github.io/2016fallcpa/blog
+
