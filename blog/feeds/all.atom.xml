@@ -99,15 +99,15 @@ for i in range(len(result)):
     #print(result[i])
     group = result[i].split(":")
     #列出組序
-    print("&lt;a href='../g"+str(gno)+"'&gt;第"+str(gno)+"組&lt;/a&gt;:&lt;br /&gt;")
-    #print("第"+str(gno)+"組:&lt;br /&gt;")
+    print("&amp;lt;a href='../g"+str(gno)+"'&amp;gt;第"+str(gno)+"組&amp;lt;/a&amp;gt;:&amp;lt;br /&amp;gt;")
+    #print("第"+str(gno)+"組:&amp;lt;br /&amp;gt;")
     #取 group 第2成員, 用逗點隔開納入數列後, 利用[:-1]去掉最後空白
     #print(group[1].split(",")[:-1])
     gmember = group[1].split(",")[:-1]
     for j in range(len(gmember)):
         #print(gmember[j])
-        print("&lt;a href='../g"+str(gno)+"/"+str(gmember[j])+"'&gt;"+ \
-        str(gmember[j])+"&lt;/a&gt; ")
-    print("&lt;br /&gt;")
+        print("&amp;lt;a href='../g"+str(gno)+"/"+str(gmember[j])+"'&amp;gt;"+ \
+        str(gmember[j])+"&amp;lt;/a&amp;gt; ")
+    print("&amp;lt;br /&amp;gt;")
     gno = gno + 1
 &lt;/pre&gt;</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry></feed>
